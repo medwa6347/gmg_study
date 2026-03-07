@@ -1,5 +1,5 @@
  /*----------------------------------------------------------------*\
- | STANDALONE ADHOC PNH/aHUS/gMG ANALYSIS FOR ALEXICON - CLAIMS			|
+ | STANDALONE ADHOC PNH/aHUS/gMG ANALYSIS FOR ALEXION - CLAIMS			|
  |  HTTP://DMO.OPTUM.COM/PRODUCTS/NHI.HTML													|
  | AUTHOR: MICHAEL EDWARDS 2018-06-28 AMDG                          |
  \*----------------------------------------------------------------*/													
