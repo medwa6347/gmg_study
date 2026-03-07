@@ -1,5 +1,5 @@
  /*----------------------------------------------------------------*\
- | STANDALONE ADHOC PNH/aHUS/gMG ANALYSIS FOR ALEXICON - EHR				|
+ | STANDALONE ADHOC PNH/aHUS/gMG ANALYSIS FOR ALEXION - EHR				|
  |  HTTP://DMO.OPTUM.COM/PRODUCTS/NHI.HTML													|
  | AUTHOR: MICHAEL EDWARDS 2018-07-09 AMDG                          |
  \*----------------------------------------------------------------*/													
