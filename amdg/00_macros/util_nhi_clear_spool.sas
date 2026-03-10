@@ -1,6 +1,5 @@
  /*----------------------------------------------------------------*\
- | MACRO TO CLEAR NHI SPOOL SPACE																		|
- |	HTTP://DMO.OPTUM.COM/PRODUCTS/NHI.HTML													|
+ | MACRO TO CLEAR NHI SPOOL SPACE											  |
  | AUTHOR: MICHAEL EDWARDS 2018-02-21 AMDG                          |
  \*----------------------------------------------------------------*/													
 /**/

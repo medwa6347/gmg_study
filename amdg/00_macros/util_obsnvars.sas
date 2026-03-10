@@ -1,7 +1,7 @@
  /*----------------------------------------------------------------*\
- | MACRO TO RETURN OBS AND VARS FROM DS															|
- | AUTHOR: Felix Friedman 2013-02-05                          			|
- | MODIFIED: Michael Edwards 2017-05-03															|
+ | MACRO TO RETURN OBS AND VARS FROM DS									  |
+ | AUTHOR: Felix Friedman 2013-02-05                          		  |
+ | MODIFIED: Michael Edwards 2017-05-03									  |
   \*---------------------------------------------------------------*/													
 /**/
 

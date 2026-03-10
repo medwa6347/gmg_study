@@ -1,34 +1,34 @@
  /*----------------------------------------------------------------*\
- | REPORTING FORMATS																						  	|
+ | REPORTING FORMATS											  	|
  | AUTHOR: MICHAEL EDWARDS 2018-01-25 AMDG                          |
  \*----------------------------------------------------------------*/													
 /**/
 
 proc format;
-	 value dose_fmt					29-31						= '01_:300mg'    
+	 value dose_fmt									29-31					= '01_:300mg'    
  				 									59-61   				= '02_:600mg'
  				 									89-91   				= '03_:900mg'
  				 									119-121 				= '04_:1200mg'
- 				 									149-151					=	'05_:1500mg'
+ 				 									149-151					= '05_:1500mg'
  				 									179-181 				= '06_:1800mg'
  				 									239-241 				= '07_:2400mg'
  				 									269-271 				= '08_:2700mg'
  				 									359-361 				= '09_:3600mg'
  				 									479-481 				= '10_:4800mg'
  				 									other 					= '10_:Other Dose';
-	 value dose_fmt_a				29-31						= '01_:150mg'    
+	 value dose_fmt_a								29-31					= '01_:150mg'    
  				 									59-61   				= '02_:300mg'
  				 									89-91   				= '03_:450mg'
  				 									119-121 				= '04_:600mg'
- 				 									149-151					=	'05_:750mg'
+ 				 									149-151					= '05_:750mg'
  				 									179-181 				= '06_:900mg'
  				 									239-241 				= '07_:1200mg'
  				 									269-271 				= '08_:1350mg'
  				 									359-361 				= '09_:1800mg'
  				 									479-481 				= '10_:2400mg'
  				 									other 					= '10_:Other Dose';
-	value  cont_pct_fmt			0								= '11_:No Continuous Therapy'
-				 									0.0001-0.19999	= '10_:10% Continuous Therapy'
+	value  cont_pct_fmt								0					= '11_:No Continuous Therapy'
+				 									0.0001-0.19999		= '10_:10% Continuous Therapy'
 				 									0.2-0.29999			= '09_:20% Continuous Therapy'
 				 									0.3-0.39999			= '08_:30% Continuous Therapy'
 				 									0.4-0.49999			= '07_:40% Continuous Therapy'
@@ -498,7 +498,7 @@ proc template;
 	define style styles.XL&vz.sansPrinter; 						/* <== DECLARE EXCEL STYLE TO APPLY TO ALL EXCEL OUTPUTS */
 		parent = styles.sansPrinter;      						
 		class systemtitle /               						
-		fontsize = 10pt;															/* <== FONT, COLOR OPTIONS FOR TITLE STMTS AND PROC PRINT OUTPUTS */
+		fontsize = 10pt;										/* <== FONT, COLOR OPTIONS FOR TITLE STMTS AND PROC PRINT OUTPUTS */
 		style header from header /
 		foreground = cxFFFFFF
 		background = cx63666A;                         

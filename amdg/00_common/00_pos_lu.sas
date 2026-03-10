@@ -1,17 +1,17 @@
  /*-----------------------------------------------------------------*\
- | PLACE-OF-SERVICE GROUPERS LU FILE									      				 |
+ | PLACE-OF-SERVICE GROUPERS LU FILE								 |
  | AUTHOR: MICHAEL W EDWARDS 03-20-18 AMDG                           |
  \*-----------------------------------------------------------------*/
 /**/
 
  /*-----------------------------------------------------------------*\
- | THIS PROGRAM CREATES PLACE-OF-SERVICE LOOKUP TABLE								 | 
- |	BASED ON THE DNHI PLACE_OF_SERVICE TABLE		 										 |	
- |	WITH CUSTOM PLACE-OF-SERVICE GROUPINGS													 |
- | DNHI QUERY:																											 |
- |	SELECT DISTINCT AMA_CODE																				 |
- | 								, AMA_CODE_DESC																	 	 | 
- |	FROM PLACE_OF_SERVICE									 									 	 			 |	
+ | THIS PROGRAM CREATES PLACE-OF-SERVICE LOOKUP TABLE				 | 
+ |	BASED ON THE DNHI PLACE_OF_SERVICE TABLE		 				 |	
+ |	WITH CUSTOM PLACE-OF-SERVICE GROUPINGS							 |
+ | DNHI QUERY:														 |
+ |	SELECT DISTINCT AMA_CODE										 |
+ | 	, AMA_CODE_DESC													 | 
+ |	FROM PLACE_OF_SERVICE									 		 |	
  \*-----------------------------------------------------------------*/	
 /**/
 		
@@ -20,7 +20,7 @@ input line $char60.;
 pos=put(scan(line,1,'|'),$4.); 
 mx_index_pos_desc=trim(tranwrd(scan(line,2,'|'),"'",""));
 cards;                                    
-UNK|'UNKNOWN'																			 |
+UNK|'UNKNOWN'									   |
 11|'OFFICE'                                        |   
 12|'HOME HEALTH'                                   |   
 13|'ASSISTED LIVING FACILITY'                      |   

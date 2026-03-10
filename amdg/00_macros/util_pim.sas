@@ -4,10 +4,10 @@
  | Author: Michael W. Edwards 01-23-2017                             |
  |                                                                   |
  | DESCRIPTION OF MACRO PARAMETERS:                                  |
- |    FN    	: REQUIRED. EXCEL FILE TO EVALUATE      							 |
+ |    FN    	: REQUIRED. EXCEL FILE TO EVALUATE      			 |
  |		RNG 	 	: REQUIRED. RANGE TO EVALUATE.  FORMAT = Sheet$Range	 |
- |    OUT_TMP	: REQUIRED. DSN TO OUTPUT TO												 	 |
- |		DTFLD	 	: REQUIRED. DATE FIELD TO EVALUATE 										 |
+ |    OUT_TMP	: REQUIRED. DSN TO OUTPUT TO						 |
+ |		DTFLD	 	: REQUIRED. DATE FIELD TO EVALUATE 				 |
  |                                                                   |
  | UPDATE HISTORY:                                                   |
  \*-----------------------------------------------------------------*/

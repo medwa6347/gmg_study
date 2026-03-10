@@ -1,14 +1,14 @@
  /*-----------------------------------------------------------------*\
- | PROCEDURE CODE GROUPERS LU FILE										      				 |
+ | PROCEDURE CODE GROUPERS LU FILE								     |
  | AUTHOR: MICHAEL W EDWARDS 07-11-18 AMDG                           |
  \*-----------------------------------------------------------------*/
 /**/
 
  /*-----------------------------------------------------------------*\
- | THIS PROGRAM CREATES A PROCEDURE CODE LOOKUP TABLE								 | 
- |	BASED ON A CUSTOM CLINICAL REVIEW OF THE PROCEDURE CODES				 |	
- |	ASSOCIATED WITH THIS ANALYSIS																		 |
- \*------------------------------------------------------------------*/	
+ | THIS PROGRAM CREATES A PROCEDURE CODE LOOKUP TABLE				 | 
+ |	BASED ON A CUSTOM CLINICAL REVIEW OF THE PROCEDURE CODES		 |	
+ |	ASSOCIATED WITH THIS ANALYSIS									 |
+ \*-----------------------------------------------------------------*/	
 /**/
 		
 data inp.r&vz._proc2cat_lu(drop=line); 
