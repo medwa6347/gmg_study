@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_fmt_reporting",
+  "source_file": "amdg/00_formats/fmt_reporting.sas",
+  "source_blob_sha": "8f8820c19ad552bf0d768a3f44ddd94307301e59",
+  "source_commit": "179fda16d8dd5b467ab6775194c8c2db22884619",
+  "notes": "Reporting format library: the two PROC FORMAT blocks (11 value + 1 picture statements: dose_fmt, cont_pct_fmt, pt_wt_fmt, $dx_fmt, age_fmt, $proc_cd_fmt, pctfmt, etc.) verbatim. Dropped the trailing &vz-dependent PROC TEMPLATE/ODS section; added a 3-row demo dataset + PROC PRINT applying the formats."
+}

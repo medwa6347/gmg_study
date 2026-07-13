@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-07-13T09:02:48.007120+00:00",
+  "_captured_run_id": "r_a6d6824dab814f87b95fec560371e856",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: demo_ds has 3 variables and 4 observations.",
+    "NOTE: util_obsnvars reported nobs=4 nvars=3 ds_exist=1"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_pos_lu",
+  "source_file": "amdg/00_common/00_pos_lu.sas",
+  "source_blob_sha": "f25278f9f11e122ed4b5e8695699334211a25d88",
+  "source_commit": "179fda16d8dd5b467ab6775194c8c2db22884619",
+  "notes": "Place-of-service lookup: DATA step reads cards via scan/put/tranwrd, builds a 20-row pos->description table. Only edit: output dataset inp.r&vz._pos2desc_lu retargeted to WORK.pos2desc_lu (drops the site libname + &vz session macro var); added a PROC PRINT to show the result."
+}
