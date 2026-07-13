@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_macro_util_obsnvars",
+  "source_file": "amdg/00_macros/util_obsnvars.sas",
+  "source_blob_sha": "d5cfbb961ba0fd3907b452d9a5318b735d3b3873",
+  "source_commit": "179fda16d8dd5b467ab6775194c8c2db22884619",
+  "notes": "Caller for the %util_obsnvars macro (opens a dataset via %sysfunc(open/attrn) and reports obs/vars counts into global macro vars). Their macro verbatim; caller runs it against a 4-row mock dataset."
+}

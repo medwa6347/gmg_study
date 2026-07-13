@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-13T09:02:47.981523+00:00",
+  "_captured_run_id": "r_4e3355670192417fa0ef831cb9e0f0f9",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT dose_fmt defined (11 ranges).",
+    "NOTE: FORMAT $proc_cd_fmt defined (422 ranges).",
+    "NOTE: PICTURE pctfmt defined (1 ranges)"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

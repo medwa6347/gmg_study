@@ -1,0 +1,6 @@
+  Obs            dose           age  initial_pt_wt    dx
+-----  --------------  ------------  -------------  ----
+    1       01_:300mg  Less than 18     01_: <40kg  PNH
+    2       03_:900mg      35 to 49   02_: 40-60kg  aHUS
+    3  10_:Other Dose      65 to 79    04_: >100kg  gMG
+

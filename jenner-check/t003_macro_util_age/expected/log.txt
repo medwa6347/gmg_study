@@ -1,0 +1,13 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA patient_ages
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote patient_ages (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=patient_ages
+
+NOTE: PROC PRINT completed: 5 observations printed, 3 variables
